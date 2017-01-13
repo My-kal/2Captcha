@@ -1,19 +1,7 @@
 # twocaptcha/__init__.py
 
-# TODO:
-# [x] proxy support
-# [] poll interval
-# [x] get balance
-# [] error handling
-# [] request unblocking
-
-
 from requests import Session
 from time import sleep
-import os
-
-# API_KEY = os.environ.get('API_KEY', None)
-# 'https://2captcha.com/setting'
 
 class TwoCaptcha(object):
     """Interface for 2Captcha API."""
@@ -52,7 +40,7 @@ class TwoCaptcha(object):
 
         if proxy:
             req = session.get('http://2captcha.com/res.php', params=payload, proxies=proxy)
-        else:
+        else:  
             req = session.get('http://2captcha.com/res.php', params=payload)
 
 
