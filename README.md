@@ -24,7 +24,7 @@ recaptcha_token = twoCaptcha.solve_recaptcha(site_url=SITE_URL, site_key=SITE_KE
 from twocaptcha import TwoCaptcha
 
 twoCaptcha = TwoCaptcha(<API_KEY>)
-balance = twoCatpcha.get_balance()
+balance = twoCaptcha.get_balance()
 ```
 
 ## TODO:
