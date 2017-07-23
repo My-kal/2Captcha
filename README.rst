@@ -32,7 +32,7 @@ TwoCaptcha.solve\_captcha
     captcha_token = twoCaptcha.solve_captcha(site_key=site_key, page_url=page_url)
     print(captcha_token) # Ex. '03AE...'
 
-Get Account Balance
+TwoCaptcha.get\_balance
 ~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
@@ -43,10 +43,10 @@ Get Account Balance
 TODO:
 -----
 
--  [] proxy support
--  [] poll interval
--  [] request error handling
--  [] request unblocking
--  [] unit tests
+-  [ ] proxy support
+-  [ ] poll interval
+-  [ ] request error handling
+-  [ ] request unblocking
+-  [ ] unit tests
 
 .. _here: https://2captcha.com/setting
