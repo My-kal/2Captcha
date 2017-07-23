@@ -90,3 +90,6 @@ ENV/
 
 # Tests
 example.py
+
+**/__pycache__/
+**/*.py[cod]
