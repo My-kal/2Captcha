@@ -8,11 +8,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='TwoCaptcha',
-    version='0.0.1',
+    name='two-captcha-sdk',
+    version='0.0.2',
     description='2Captcha Python3 API Wrapper',
     long_description=long_description,
-    url='https://github.com/My-kal/2Captcha',
+    url='https://github.com/kfichter/2captcha-py-sdk',
     author='Mykal Burris',
     license='MIT',
     classifiers=[
